@@ -1,0 +1,60 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 55vh;
+    padding: 4%;
+    margin-left: 6%;
+    gap: 10%;
+    
+}
+
+button:hover{
+    filter: drop-shadow(0 0 1rem red);
+}
+
+.text{
+    width: 100%;
+    /* margin-left: 20%; */
+    font-family:cursive;
+    font-size: 28px;
+}
+
+.image{
+    width: 100%;
+}
+
+button{
+    width: 50%;
+    height: 15%;
+    color: white;
+    background-color: black;
+    border-radius: 2%;
+    font-family: cursive;
+}
+
+h1{
+    font-family: cursive;
+    padding: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+center{
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+@media (max-width:640px) {
+    .parent{
+        width: 85%;
+        height: 150vh;
+        display: grid;
+    }
+
+    .text{
+        margin-bottom: 10%;
+    }
+
+}
